@@ -1,0 +1,15 @@
+# Created with WinGet Releaser using komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: RussMckendrick.Aicommit
+PackageVersion: 0.0.10
+InstallerType: portable
+Commands:
+- aic
+ReleaseDate: 2026-10-03
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/russmckendrick/aicommit/releases/download/v0.0.10/aic-windows-amd64.exe
+  InstallerSha256: B68AB0CF5408BBD8510671B2EEA3FCC3D03816E860DE2B391190771026A89A7E
+ManifestType: installer
+ManifestVersion: 1.12.0
